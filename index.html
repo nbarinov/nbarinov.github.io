@@ -15,11 +15,15 @@
   section {
     padding-bottom: 3em;
   }
+
+  h1 * {
+    transition: color 150ms ease-in;
+  }
   </style>
 </head>
-<body onload="year.innerHTML = Data.now()">
+<body>
   <header>
-    <h1>Никита Баринов,<br>веб-разработчик.</h1>
+    <h1 id="title">Никита Баринов,<br>веб-раз<span id="egg">раб</span>отчик.</h1>
   </header>
   <section>
     <h2>Примеры работ:</h2>
@@ -42,5 +46,6 @@
   <footer>
     <p id="year">2017</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
