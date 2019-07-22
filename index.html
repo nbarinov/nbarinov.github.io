@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>nbarinov</title>
-  <style>
-  /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
-  blockquote,body,dd,dl,dt,fieldset,figure,h3,h4,h5,h6,hr,html,iframe,legend,ol,pre,textarea,ul{padding:0;margin:0}button,h1,h2,input,li,p,select{margin:0}h3,h4,h5,h6{font-size:100%;font-weight:400}ul{list-style:none}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}audio,embed,img,object,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}body{padding:calc(2vw +   1vh);font-family:sans-serif;font-size:100%;line-height:1.2}a{text-decoration:none;color:#186baa;border-bottom:1px solid rgba(24,107,170,.15);-webkit-transition:all .4s;transition:all .4s}a:focus,a:hover{color:#d26028;border-bottom-color:rgba(210,96,40,.15);-webkit-transition:none;transition:none}section{max-width:960px;max-width:60rem;padding-bottom:3em;padding-right:10%}h1,h2{padding:0 0   .35em;font-weight:700}h1{font-size:60px;font-size:3.75rem}h2{font-size:36px;font-size:2.25rem}li,p{padding:0 0 .5em;line-height:1.5}li{position:relative;padding-left:1.35em}li::before{content:'—';position:absolute;left:0}hr{border:0;border-bottom:1px solid rgba(0,0,0,.15)}footer{padding-top:16px;padding-top:1rem;font-size:12px;font-size:.75rem}.u-nobr{white-space:nowrap}.u-caps{font-size:90%;letter-spacing:.1em}@media   (max-width:1024px){section{max-width:none;padding-bottom:2.75rem}h1{font-size:3rem}h2{font-size:2.25rem}}@media (max-width:768px){body{padding:calc(2vw + 2vh)}section{padding-bottom:2rem}h1{font-size:1.5rem}h2{font-size:1.2rem}}
-  header {
-    padding-bottom: 4em;
-  }
-
-  section {
-    padding-bottom: 3em;
-  }
-
-  h1 * {
-    transition: color 150ms ease-in;
-  }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<title>Никита Баринов, Веб-разработчик</title>
+  	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1 id="title">Никита Баринов,<br>веб-раз<span id="egg">раб</span>отчик.</h1>
-  </header>
-  <section>
-    <h2>Примеры работ:</h2>
-    <ul>
-      <li><a target="_blank" href="https://vk.com/app7020409">Antodo vk mini apps</a></li>
-      <li><a target="_blank" href="https://vk.com/app6824656">Билетик ВКино vk mini apps</a></li>
-      <li><a target="_blank" href="https://vk.com/app6869703">NKS vk mini apps</a></li>
-      <li><a target="_blank" href="https://p2d.ru">Магазин игр play2day</a></li>
-      <li><a target="_blank" href="http://комбинатномер1.рф/">Комбинат Питания №1</a></li>
-      <li><a target="_blank" href="/freshy/">Freshy Template</a></li>
-      <li><a target="_blank" href="/brandly/">Brandly Template</a></li>
-      <li><a target="_blank" href="/headphones/">Headphones Template</a></li>
-      <li><a target="_blank" href="/canvas/">Canvas</a></li>
-    </ul>
-    <h2>Инструменты:</h2>
-    <ul>
-      <li><a href="/hex2rgb/">hex2rbg</a></li>
-    </ul>
-  </section>
-  <section>
-    <h2>Контакты:</h2>
-    <p>Обращайтесь сюда: <a href="https://telegram.me/nbarinov">Телеграм</a>, <a href="mailto:nikitabarinov2301@gmail.com">nikitabarinov2301@gmail.com</a>, <a href="https://vk.com/nbarinov23">ВКонтакте</a>.</p>
-  </section>
-  <footer>
-    <p id="year">2017</p>
-  </footer>
-  <script src="script.js"></script>
+  	<header>
+		<h1 class="title  title--desktop">Никита Баринов</h1>
+    	<h1 class="title  title--mobile" title="Никита Баринов">НБ</h1>
+  	</header>
+	<section class="row">
+		<div class="column  column--no-padding  column--flex">
+			<div class="about">
+				<h2 class="about__title" id="position">Веб-раз<span id="egg">раб</span>отчик</h2>
+				<p>
+					Живу в Самаре. Разрабатываю веб-интерфейсы.
+					С недавних пор еще и разработкой <a href="https://vk.com/vkappsdev" target="_blank">vk mini apps</a> увлекаюсь.
+					Один из создателей крутого планировщика задач <a href="https://vk.com/antodoapp" target="_blank">Antodo vk mini apps</a>.
+				</p>
+			</div>
+
+			<div class="contacts  contacts--desktop">
+				<h2>Контакты:</h2>
+				<p>
+					Можешь написать мне куда-нибудь:
+					<a target="_blank" href="https://teleg.run/nbarinov">Телеграм</a>,
+					<a target="_blank" href="https://vk.com/nbarinov23">VK</a>,
+					<a href="mailto:nikitabarinov2301@gmail.com">nikitabarinov2301@gmail.com</a>.
+				</p>
+			</div>
+		</div>
+
+		<div class="column">
+			<h2>Примеры работ:</h2>
+			<ul>
+				<li><a target="_blank" href="https://vk.com/app7020409">Antodo vk mini apps</a></li>
+				<li><a target="_blank" href="https://p2d.ru">Магазин игр play2day</a></li>
+				<li><a target="_blank" href="https://vk.com/app6824656">Билетик ВКино vk mini apps</a></li>
+				<li><a target="_blank" href="https://vk.com/app6869703">NKS vk mini apps</a></li>
+				<li><a target="_blank" href="http://комбинатномер1.рф/">Комбинат Питания №1</a></li>
+				<li><a target="_blank" href="/freshy/">Freshy Template</a></li>
+				<li><a target="_blank" href="/brandly/">Brandly Template</a></li>
+				<li><a target="_blank" href="/headphones/">Headphones Template</a></li>
+				<li><a target="_blank" href="/canvas/">Canvas</a></li>
+				<li>и то, что я не могу тебе показать :(</li>
+			</ul>
+		</div>
+
+		<div class="column">
+			<h2>Инструменты:</h2>
+			<ul>
+				<li><a target="_blank" href="/hex2rgb/">hex2rbg</a></li>
+			</ul>
+		</div>
+
+		<div class="column  column--no-padding">
+			<div class="contacts  contacts--mobile">
+				<h2>Контакты:</h2>
+				<p>
+					Можешь написать мне куда-нибудь:
+					<a target="_blank" href="https://teleg.run/nbarinov">Телеграм</a>,
+					<a target="_blank" href="https://vk.com/nbarinov23">VK</a>,
+					<a href="mailto:nikitabarinov2301@gmail.com">nikitabarinov2301@gmail.com</a>.
+				</p>
+			</div>
+		</div>
+	</section>
+
+  	<footer>	
+    	<p id="year">2017</p>
+  	</footer>
+  	<script src="script.js"></script>
 </body>
 </html>
