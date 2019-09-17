@@ -8,34 +8,25 @@
   	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  	<header>
-		<h1 class="title  title--desktop">Никита Баринов</h1>
-    	<h1 class="title  title--mobile" title="Никита Баринов">НБ</h1>
-  	</header>
-	<section class="row">
-		<div class="column  column--no-padding  column--flex">
-			<div class="about">
-				<h2 class="about__title" id="position">Веб-раз<span id="egg">раб</span>отчик</h2>
-				<p>
-					Живу в Самаре. Разрабатываю веб-интерфейсы.
-					С недавних пор еще и разработкой <a href="https://vk.com/vkappsdev" target="_blank">vk mini apps</a> увлекаюсь.
-					Один из создателей крутого планировщика задач <a href="https://vk.com/antodoapp" target="_blank">Antodo vk mini apps</a>.
-				</p>
+	<header class="header">
+		<h1 class="header__title">
+			<img src="./logo.jpeg" alt="Никита Баринов, аватар" class="header__avatar" />
+			<div class="header__title-wrapper">
+				Никита Баринов
+				<span class="header__subtitle" id="position">Веб-раз<span id="egg">раб</span>отчик</span>
 			</div>
+		</h1>
+	</header>
 
-			<div class="contacts  contacts--desktop">
-				<h2>Контакты:</h2>
-				<p>
-					Можешь написать мне куда-нибудь:
-					<a target="_blank" href="https://teleg.run/nbarinov">Телеграм</a>,
-					<a target="_blank" href="https://vk.com/nbarinov23">VK</a>,
-					<a href="mailto:nikitabarinov2301@gmail.com">nikitabarinov2301@gmail.com</a>.
-				</p>
-			</div>
-		</div>
+	<p class="about">
+		Живу в Самаре. Разрабатываю веб-интерфейсы.
+		С недавних пор ещё и разработкой <a href="https://vk.com/vkappsdev" target="_blank">vk mini apps</a> увлекаюсь.
+		Один из создателей крутого планировщика задач <a href="https://vk.com/antodoapp" target="_blank">Antodo vk mini apps</a>.
+	</p>
 
-		<div class="column">
-			<h2>Примеры работ:</h2>
+	<section class="portfolio">
+		<div class="portfolio__column">
+			<h2 class="title">Примеры работ:</h2>
 			<ul>
 				<li><a target="_blank" href="https://vk.com/app7020409">Antodo vk mini apps</a></li>
 				<li><a target="_blank" href="https://p2d.ru">Магазин игр play2day</a></li>
@@ -44,35 +35,34 @@
 				<li><a target="_blank" href="http://комбинатномер1.рф/">Комбинат Питания №1</a></li>
 				<li><a target="_blank" href="/freshy/">Freshy Template</a></li>
 				<li><a target="_blank" href="/brandly/">Brandly Template</a></li>
-				<li><a target="_blank" href="/headphones/">Headphones Template</a></li>
 				<li><a target="_blank" href="/canvas/">Canvas</a></li>
 				<li>и то, что я не могу тебе показать :(</li>
 			</ul>
 		</div>
 
-		<div class="column">
-			<h2>Инструменты:</h2>
+		<div class="portfolio__column">
+			<h2 class="title">Инструменты:</h2>
 			<ul>
 				<li><a target="_blank" href="/hex2rgb/">hex2rbg</a></li>
 			</ul>
 		</div>
-
-		<div class="column  column--no-padding">
-			<div class="contacts  contacts--mobile">
-				<h2>Контакты:</h2>
-				<p>
-					Можешь написать мне куда-нибудь:
-					<a target="_blank" href="https://teleg.run/nbarinov">Телеграм</a>,
-					<a target="_blank" href="https://vk.com/nbarinov23">VK</a>,
-					<a href="mailto:nikitabarinov2301@gmail.com">nikitabarinov2301@gmail.com</a>.
-				</p>
-			</div>
-		</div>
 	</section>
 
-  	<footer>	
-    	<p id="year">2017</p>
-  	</footer>
+	<div class="contact">
+		<h2 class="title">Контакты:</h2>
+		<p>
+			Можешь написать мне куда-нибудь:
+			<a target="_blank" href="https://vk.com/nbarinov23" title="Частенько туда захожу">VK</a>,
+			<a target="_blank" href="https://teleg.run/nbarinov" title="Тут тоже онлайн бываю">Телеграм</a>,
+			<a target="_blank" href="https://github.com/nbarinov" title="Можешь найти что-то интересное для себя">Гитхаб</a>,
+			<a href="mailto:nikitabarinov2301@gmail.com" title="Жду твоего письма">nikitabarinov2301@gmail.com</a>.
+		</p>
+	</div>
+
+	<footer class="footer">
+		<p id="year">2017</p>
+	</footer>
+
   	<script src="script.js"></script>
 </body>
 </html>
