@@ -90,6 +90,17 @@ li {
     font-size: 13px;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1e;
+        color: #fefefe;
+    }
+
+    a {
+        color: #5fa9ee;
+    }
+}
+
 @media (min-width: 507px) {
     .about {
         font-size: 24px;
